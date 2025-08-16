@@ -50,7 +50,7 @@ install() {
     else
         install_dependencies
         myip=$(hostname -I | awk '{print $1}')
-        git clone https://github.com/bepass-org/smartSNI.git /root/smartSNI
+        git clone https://github.com/pashaee/smartSNI.git /root/smartSNI
 
         clear
         read -p "Enter your domain: " domain
